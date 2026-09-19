@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# Local corpus and generated processing artifacts
+data/pdfs/
+data/processed/
+data/manifests/
+data/qdrant_storage/
+
+# Local model and tool caches
+.cache/
+.huggingface/
+*.log
+.streamlit/
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
